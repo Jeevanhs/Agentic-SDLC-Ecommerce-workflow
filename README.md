@@ -1,7 +1,10 @@
 A-SDLC Synthetic E-commerce Dataset
+
 This repository provides a small synthetic e-commerce dataset along with helper scripts for generating CSVs, loading them into SQLite, and running analytical queries.
 
+
 Project Structure
+
 data/ – generated CSV files (users.csv, products.csv, orders.csv, order_items.csv, payments.csv) plus generate_data.py.
 ingest.py – creates ecommerce.db, defines tables, and loads the CSV files using pandas.
 query.sql – join query combining all entities.
